@@ -1,7 +1,8 @@
 import React from "react";
 
 import Counter from "./Components/Counter2";
-
+import Effect from "./Components/Effect";
+import Effect2 from "./Components/Effect2";
 // const HelloWord = () => <h1>Hello, Pesto</h1>
 
 
@@ -15,10 +16,9 @@ import Counter from "./Components/Counter2";
 
 function App () {
   return <div>
-    <Counter count={0} />
-    <Counter count={0} />
-    <Counter count={0} />
-    <Counter count={0} />
+    {/* <Counter />    */}
+    {/* <Effect />  */}
+    <Effect2 /> 
   </div>
 }
 
