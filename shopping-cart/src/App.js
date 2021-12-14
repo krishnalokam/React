@@ -1,11 +1,13 @@
 import React from "react";
 
-import Counter from "./Components/Counter2";
-import Effect from "./Components/Effect";
-import Effect2 from "./Components/Effect2";
+// import Counter from "./Components/Counter2";
+// import Effect from "./Components/Effect";
+// import Effect2 from "./Components/Effect2";
+// import Ref from "./Components/Ref";
+// import Reducer from "./Components/Reducer";
+import Custom from "./Components/Custom";
+
 // const HelloWord = () => <h1>Hello, Pesto</h1>
-
-
 
 // class HelloWorld extends React.Component {
 //   render (){
@@ -18,7 +20,10 @@ function App () {
   return <div>
     {/* <Counter />    */}
     {/* <Effect />  */}
-    <Effect2 /> 
+    {/* <Effect2 />  */}
+    {/* <Ref /> */}
+    {/* <Reducer /> */}
+    <Custom />
   </div>
 }
 
