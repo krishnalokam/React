@@ -7,7 +7,7 @@ function CustomChild(){
 
     return (
         <>
-            <h1>{Math.sqrt(x)},{Math.sqrt(y)}</h1>
+            <h1>{Math.round(Math.sqrt(x),2)},{Math.round(Math.sqrt(y),2)}</h1>
         </>
     )
 
